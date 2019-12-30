@@ -1,0 +1,15 @@
+{
+	"title"				: "Dataset 11 classes",
+	"dataset_dir"		: "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/20_classes_distinct/cluster_dataset/",
+	"source_dir"		: "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/approach_2/general_implementation/",
+	"feature_path"		: "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/approach_2/general_implementation/20_inception_feature_vector.npy",
+	"model_path"		: "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/approach_2/general_implementation/inception_20_class_cluster.sav",
+	"base_model"		: "inception",
+	"vector_gen"		: false,
+	"analysis_phase"	: true,
+	"clust_lower_range"	: 2,
+	"clust_upper_range"	: 25,
+	"num_clusters"		: 8,
+	"enable_pca"		: false,
+	"enable_norm"		: false
+}
