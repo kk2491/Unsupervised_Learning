@@ -29,7 +29,7 @@ import matplotlib.patches as mpatches
 
 def read_confif_file():
 
-	config_file = "/home/kishor/GWM/Meta_Cognition_Experiments/1_Clustering/approach_2/general_implementation/config.json"
+	config_file = "/home/kishor/Meta_Cognition_Experiments/1_Clustering/approach_2/general_implementation/config.json"
 
 	with open(config_file, "r") as cfile:
 		config_paras = simplejson.loads(cfile.read(), object_pairs_hook = OrderedDict)
